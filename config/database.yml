@@ -17,10 +17,10 @@ test:
 production
   adapter: postgresql
   encoding: unicode
-  database: lallah.db.elephantsql.com
+  database: viktor-test.c1hd8r0n5glg.sa-east-1.rds.amazonaws.com
   port: 5432
   pool: 5
-  username: ndrcrvue
-  password: rxdyBkylzprIa41Nk6_RyGB8Q9FEf8bz
+  username: postgres
+  password: Artur*#06$
 
 

@@ -26,19 +26,19 @@ For persistence the app uses postgreSQL. So libpq-dev lib is expected to be inst
     $ sudo apt update && sudo apt install yarn
 
 
-*Install all necessary gems:
+* Install all necessary gems:
 
     $ gem install rails
   
     $ gem install bundler
     
-*System dependencies:
+* System dependencies:
 
     $ bundle install
     
     $ yarn install
 
-*Configuration
+* Configuration
 
 *Database: Postgres SQL
 

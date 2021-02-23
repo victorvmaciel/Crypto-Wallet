@@ -32,11 +32,11 @@ For persistence the app uses postgreSQL. So libpq-dev lib is expected to be inst
   
     $ gem install bundler
     
-*System dependencies
+*System dependencies:
 
-   $ bundle install
-   
-   $ yarn install
+    $ bundle install
+    
+    $ yarn install
 
 *Configuration
 

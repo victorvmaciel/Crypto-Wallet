@@ -23,6 +23,7 @@ Install yarn, node and npm
     $echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
 
 Install all necessary gems:
+
     $gem install rails
   
     $ bundle install

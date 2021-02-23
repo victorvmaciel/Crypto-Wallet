@@ -35,6 +35,7 @@ For persistence the app uses postgreSQL. So libpq-dev lib is expected to be inst
 * System dependencies
 
    $ bundle install
+   
    $ yarn install
  
 

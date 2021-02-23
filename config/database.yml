@@ -1,10 +1,17 @@
-production
-  adapter:postgresql
-  encoding:unicode
-  database:viktor-test.c1hd8r0n5glg.sa-east-1.rds.amazonaws.com
-  port:5432
-  pool:5
-  username:postgres
-  password:
+#production
+ # adapter:postgresql
+ # encoding:unicode
+ # database:viktor-test.c1hd8r0n5glg.sa-east-1.rds.amazonaws.com
+ # port:5432
+ # pool:5
+ # username:postgres
+ # password:
 
-
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: postgres
+  pool: 5
+  username: postgres
+  password: Artur#06$
+  host: viktor-test.c1hd8r0n5glg.sa-east-1.rds.amazonaws.com

@@ -11,12 +11,21 @@ Thanks again!
 
 Crypto-Wallet is a simple way to calculate your cryptocoin savings! 
 It is a Rails 2.7.2 application so the first thing to do to get started is to install its dependencies:
-
-    $ bundle install
-
 For persistence the app uses postgreSQL. So libpq-dev lib is expected to be installed on server machine. This can be done easily in Ubuntu like this:
-
     $ sudo apt-get install libpq-dev
+    Install yarn, node and npm
+*Yarn*
+    $curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+    $echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+
+Install all necessary gems:
+    $gem install rails
+  
+    $ bundle install
+    
+
+
+
     
 * System dependencies
 

@@ -15,24 +15,29 @@ For persistence the app uses postgreSQL. So libpq-dev lib is expected to be inst
 
     $ sudo apt-get install libpq-dev
     
-Install yarn, node and npm
+* Install yarn, node 
     
 *Yarn*
 
     $ curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+    
     $ echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+    
+    $ sudo apt update && sudo apt install yarn
 
-Install all necessary gems:
+
+* Install all necessary gems:
 
     $ gem install rails
   
     $ gem install bundler
     
-
-
-
-    
 * System dependencies
+
+   $ bundle install
+   $ yarn install
+ 
+
 
 * Configuration
 

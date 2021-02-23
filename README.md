@@ -1,10 +1,10 @@
 # README
 
 # Crypto-Wallet #
-*** Thanks for checking out my humble app. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Thanks again! 
+Thanks for checking out my humble app. If you have a suggestion
+that would make this better, please fork the repo and create a pull request
+or simply open an issue with the tag "enhancement".
+Thanks again! 
 
 
 ## Getting started ##
